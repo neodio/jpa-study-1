@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+# spring
+spring:
+  application:
+    name: jpa-study-1
+  profiles:
+    active: local
