@@ -40,7 +40,7 @@ out/
 src/main/generated
 
 ### docker ###
-docker/h2/
+docker-h2/h2/
 
 ### macOS ###
 # General
