@@ -3,11 +3,12 @@ spring:
   config:
     activate:
       on-profile: local
-    datasource:
-      jdbc-url: jdbc:h2:tcp://localhost:1521/jpashop;MVCC=TRUE
-      username: sa
-      password:
-      driver-class-name: org.h2.Driver
+
+  datasource:
+    url: jdbc:h2:tcp://localhost:1521/jpashop
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
 
   jpa:
     hibernate:
@@ -16,9 +17,10 @@ spring:
       hibernate:
         #show_sql: true
         format_sql: true
-        use_sql_comments: true
+        default_batch_fetch_size: 1000
 
 logging:
   level:
     org.hibernate.SQL: debug
-    org.hibernate.type: trace
+    #parameter log
+    #org.hibernate.type: trace
