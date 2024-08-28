@@ -6,6 +6,11 @@
 
 https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1
 
+# 환경
+- java 17
+- Gradle 8.2.1
+- Spring boot 3.1.2
+
 # Local 개발환경을 위한 Docker
 - 실행방법
   ```
